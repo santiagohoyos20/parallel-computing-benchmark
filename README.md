@@ -25,11 +25,10 @@ Cada carga de trabajo se implementa en tres versiones:
 ---
 
 ## ⚙️ Requisitos
-
+Entorno con soporte para MPI y CUDA:
 - Python 3.10+
 - [`Microsoft MPI v10.0`](https://www.microsoft.com/en-us/download/details.aspx?id=57467)
 - [`CUDA Toolkit 11.7`](https://developer.nvidia.com/cuda-11-7-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local) (para GPU)
-- Entorno con soporte para MPI y CUDA
 
 Para instalar los paquetes necesarios:
 ```bash
