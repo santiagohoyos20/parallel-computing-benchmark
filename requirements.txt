@@ -1,0 +1,6 @@
+cupy-cuda11x==13.4.1
+fastrlock==0.8.3
+llvmlite==0.44.0
+mpi4py==4.0.3
+numba==0.61.2
+numpy==2.2.6
