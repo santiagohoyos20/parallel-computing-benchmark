@@ -28,10 +28,11 @@ Cada carga de trabajo se implementa en tres versiones:
 
 - Python 3.10+
 - [`numpy`](https://numpy.org/)
-- [`mpi4py`](https://mpi4py.readthedocs.io/)
-- [`cupy`](https://cupy.dev/) o [`numba`](https://numba.pydata.org/) (para GPU)
+- [`Microsoft MPI v10.0`](https://www.microsoft.com/en-us/download/details.aspx?id=57467)
+- [`CUDA Toolkit 11.7`](https://developer.nvidia.com/cuda-11-7-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local) (para GPU)
 - Entorno con soporte para MPI y CUDA
 
 Para instalar los paquetes necesarios:
 ```bash
-pip install numpy mpi4py cupy numba
+pip install -r requirements.txt
+
